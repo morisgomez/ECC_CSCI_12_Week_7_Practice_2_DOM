@@ -1,0 +1,17 @@
+html
+{
+  /*background image was being weird with body in codepen, so just made same css rules to built in html element*/
+  background-image: url("https://static.vecteezy.com/system/resources/previews/013/345/428/non_2x/rainbow-clouds-grass-free-vector.jpg");
+  background-size: contain; /*if pic too small, repeats*/
+  height: 100%; /*size of window*/
+  width: 100%; /*size of window*/
+}
+img
+{
+  position: absolute; /*above all elements*/
+  left: 50px;
+  top: 50px;
+  width: 100px;
+  border: solid black 3px;
+  box-shadow: 5px 10px;
+}
